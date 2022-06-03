@@ -1,0 +1,43 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+#content{
+    
+    border-radius: 3px;
+    border:  3px solid red;
+padding: 50px 100px;
+margin-left: 5%;
+}
+label,input,select{
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+button {
+    padding: 10px 30px ;
+    background-color: violet;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+}
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+/* #salair{
+    background-color: red;
+}
+#montantSalaire{
+    background-color: blue;
+} */
